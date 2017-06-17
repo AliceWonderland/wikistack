@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 const nunjucks=require('nunjucks');
 const routes=require('./routes');
 const models = require('./models');
+cont test="for git";
 
 models.User.sync({})
     .then(function () {
